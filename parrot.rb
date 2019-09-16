@@ -1,5 +1,6 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
 def parrot(string = "Squawk!")
-  return string.to_i
+  puts "#{string}"
+  return string
 end 
